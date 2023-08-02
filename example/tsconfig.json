@@ -1,0 +1,10 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "expo-usbport": ["../src/index"],
+      "expo-usbport/*": ["../src/*"]
+    }
+  }
+}

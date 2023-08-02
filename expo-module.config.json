@@ -1,0 +1,9 @@
+{
+  "platforms": ["ios", "android", "web"],
+  "ios": {
+    "modules": ["ExpoUsbportModule"]
+  },
+  "android": {
+    "modules": ["com.waku.usbport.ExpoUsbportModule"]
+  }
+}
